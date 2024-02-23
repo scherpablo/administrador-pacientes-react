@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Poppins, sans-serif;
+}
+
+
+@layer base {
+  ::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Fondo de la pista */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    /* background: rgba(255, 255, 255, 0.4);  */
+    background: rgba(156, 163, 175, .5); /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Redondeada */
+  }
+}
